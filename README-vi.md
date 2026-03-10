@@ -1,24 +1,28 @@
 🇬🇧 [Read in English](README.md)
 
-# Mini Truck CMS
+# Mini Truck CMS — Hệ thống Quản lý Sản phẩm
 
-CMS quản lý danh mục sản phẩm với 500+ SKU, đóng dấu ảnh và proxy cache
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Sharp](https://img.shields.io/badge/Sharp-99CC00?style=flat-square&logo=sharp&logoColor=white) ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square) ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square) ![React Three](https://img.shields.io/badge/React%20Three-000?style=flat-square)
 
-## Công nghệ
+CMS quản lý danh mục 500+ mã phụ tùng xe tải với watermark tự động, proxy cache ảnh, và preview 3D.
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-336791?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+## Tính năng chính
 
-## Tính năng
+- **Danh mục 500+ SKU** — database tìm kiếm trên Supabase (PLpgSQL)
+- **Watermark tự động** — đóng dấu thương hiệu bằng Sharp
+- **Cloudinary CDN** — tối ưu ảnh và proxy cache
+- **Preview 3D** — React Three Fiber cho xem sản phẩm tương tác
+- **Dashboard quản trị** — CRUD với thao tác hàng loạt
+- **SEO-optimized** — trang sản phẩm render phía server
 
-- Danh mục sản phẩm với 500+ SKU
-- Hệ thống đóng dấu watermark
-- Proxy cache ảnh tăng tốc
-- Tìm kiếm và lọc sản phẩm
-- Dashboard quản trị responsive
+## Điểm kỹ thuật
+
+- **Supabase** cho real-time DB + auth + storage (không cần backend riêng)
+- **Sharp** xử lý ảnh server-side (watermark, resize, optimize)
+- **React Three** (drei + fiber) cho 3D visualization
+- **GSAP + Framer Motion** cho animation scroll cao cấp
 
 ---
-
-## Tác giả
 
 **Xuan Linh** — Fullstack Developer
 
