@@ -1,24 +1,28 @@
 🇻🇳 [Đọc bằng tiếng Việt](README-vi.md)
 
-# Mini Truck CMS
+# Mini Truck CMS — Product Catalog System
 
-Product catalog CMS with 500+ SKUs, watermarking, and proxy image cache
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Sharp](https://img.shields.io/badge/Sharp-99CC00?style=flat-square&logo=sharp&logoColor=white) ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square) ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square) ![React Three](https://img.shields.io/badge/React%20Three-000?style=flat-square)
 
-## Tech Stack
+A product catalog CMS managing 500+ truck parts SKUs with automated image watermarking, proxy caching, and 3D product previews.
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![PLpgSQL](https://img.shields.io/badge/PLpgSQL-336791?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+## What it does
 
-## Features
+- **500+ SKU catalog** — searchable product database on Supabase (PLpgSQL)
+- **Image watermarking** — automated branding with Sharp
+- **Cloudinary CDN** — image optimization and proxy cache
+- **3D previews** — React Three Fiber for interactive product views
+- **Admin dashboard** — CRUD with batch operations
+- **SEO-optimized** — server-rendered product pages
 
-- Product catalog with 500+ SKUs
-- Image watermarking system
-- Proxy image cache for performance
-- Search and filter functionality
-- Responsive admin dashboard
+## Tech highlights
+
+- **Supabase** for real-time DB + auth + storage (no custom backend needed)
+- **Sharp** for server-side image processing (watermark, resize, optimize)
+- **React Three** (drei + fiber) for 3D product visualization
+- **GSAP + Framer Motion** for premium scroll animations
 
 ---
-
-## Author
 
 **Xuan Linh** — Fullstack Developer
 
